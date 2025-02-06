@@ -1,0 +1,116 @@
+/* Style the form container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Avatar image */
+.imgcontainer {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+img.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Container styling */
+.container {
+    padding: 10px;
+}
+
+/* Label and input fields */
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Login button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cancel button */
+.cancelbtn {
+    background-color: #f44336;
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelbtn:hover {
+    background-color: #d32f2f;
+}
+
+/* Remember me checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Forgot password link */
+span.psw {
+    float: right;
+    padding-top: 10px;
+}
+
+span.psw a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+span.psw a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media screen and (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+
+    .cancelbtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    span.psw {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
